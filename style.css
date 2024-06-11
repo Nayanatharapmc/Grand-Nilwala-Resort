@@ -1,0 +1,148 @@
+/* style.css */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+ 
+/* Flex container for header */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    /*background-image: url("images/front.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Navigation styling */
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(190, 83, 190);
+  }
+  
+  /* Image styling */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Flex container for footer */
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Flex container for main content */
+  .main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Flex container for sidebar */
+  .sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  /* Flex container for main content */
+  .content {
+    flex: 3;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  /* Flex container for article */
+  article {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Flex container for article */
+  article h2 {
+    color: #333;
+  }
+  
+  /* Flex container for article */
+  article p {
+    color: #333;
+  }
+  
+  /* Flex container for article */
+  article img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Flex container for article */
+  article a {
+    color: lightseagreen;
+    text-decoration: none;
+  }
+  
+  /* Flex container for article */
+  article a:hover {
+    color: darkslategray;
+  }
+  
+  /* Flex container for article */
+  article p {
+    margin-bottom: 10px;
+  }
+  
+  /* Flex container for article */
+  article p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Flex container for article */
+  article p:first-child {
+    font-weight: bold;
+  }
+  
+  /* Flex container for article */
+  article p:last-child {
+    font-style: italic;
+}
+
+.copy-right {
+    background-color: rgb(190, 83, 190);
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
