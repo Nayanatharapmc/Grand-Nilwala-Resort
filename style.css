@@ -210,4 +210,184 @@ animation: moveUp 6s ease-in-out infinite;
 animation-delay: 4s;
 }
 
+/* Center the package section heading */
+#packages {
+  padding: 20px;
+  text-align: center;
+}
 
+#packages h2 {
+  margin-top: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+/* Package Cards Container */
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+/* Individual Package Card Styles */
+.package-card {
+  background:rgb(236, 241, 169);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /*overflow: hidden;*/
+}
+
+.package-card .icon {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.package-card .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.package-card .card-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.package-card .card-text {
+  color: #666;
+}
+
+.package-card ul {
+  list-style-type:circle;
+  flex-wrap: row;
+  padding: 0;
+}
+
+.package-card:hover {
+  background-color: rgb(242, 211, 87);
+  transform: scale(1.05);
+}
+
+/*.................Contact Form Styling............*/
+
+
+/* Contact Form Section */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/*Columns */
+.right {
+  flex: 1 1 45%;
+  background-color: rgb(236, 241, 169);
+  margin: 0 20px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.left {
+  flex: 1 1 45%;
+  padding: 40px 0;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.header h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sub-text h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: rgb(190, 83, 190);
+  text-align: center;
+}
+
+.form .field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form .field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form .field input, 
+.form .field textarea {
+  width: calc(100% - 30px);
+  padding: 10px;
+  padding-left: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.form .field input:focus, 
+.form .field textarea:focus {
+  border-color: rgb(190, 83, 190);
+  outline: none;
+}
+
+.form .field i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(190, 83, 190);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: rgb(147, 26, 147)
+}
+
+/* Right Column */
+.map iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .left, .right {
+      flex: 1 1 90%;
+      margin-bottom: 20px;
+  }
+
+  .map iframe {
+      height: 300px;
+  }
+}
