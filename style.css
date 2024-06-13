@@ -42,7 +42,7 @@ body, h1, ul, li {
   }
   
   ul li a:hover {
-    background-color: rgb(190, 83, 190);
+    background-color:  rgb(242, 211, 87);
   }
   
   /*..............Home Background Styling............. */
@@ -109,7 +109,7 @@ body, h1, ul, li {
   
 /*.................Footer Styling...................*/
 .copy-right {
-    background-color: rgb(190, 83, 190);
+    background-color:  rgb(242, 211, 87);
     color: black;
     text-align: center;
     padding: 5px;
@@ -321,13 +321,14 @@ animation-delay: 4s;
 .sub-text h3 {
   font-size: 1.2em;
   margin-bottom: 20px;
-  color: rgb(190, 83, 190);
+  color: rgb(236, 241, 169) /*rgb(190, 83, 190)*/;
   text-align: center;
 }
 
 .form .field {
   margin-bottom: 20px;
   position: relative;
+  color: #ddd;
 }
 
 .form .field label {
@@ -348,7 +349,7 @@ animation-delay: 4s;
 
 .form .field input:focus, 
 .form .field textarea:focus {
-  border-color: rgb(190, 83, 190);
+  border-color: rgb(242, 211, 87);
   outline: none;
 }
 
@@ -363,17 +364,18 @@ animation-delay: 4s;
 .form button {
   width: 100%;
   padding: 10px;
-  background-color: rgb(190, 83, 190);
+  background-color: rgb(236, 241, 169);
   color: #fff;
   border: none;
   border-radius: 4px;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  color: black;
 }
 
 .form button:hover {
-  background-color: rgb(147, 26, 147)
+  background-color: rgb(242, 211, 87)
 }
 
 /* Right Column */
